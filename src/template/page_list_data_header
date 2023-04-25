@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+        body {
+          background-color: #bed6e1;
+        }
+        h1 {
+          color: #474444;
+        }
+      </style>
+    <title>Tableau Bootstrap</title>
+  </head>
+  <body>
+    <div class="container my-5">
+        <h1 class="text-center">Page de visualisation de données.</h1>
+        <br>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Index</th>
+            <th>Titre</th>
+            <th>Lien</th>
+          </tr>
+        </thead>
+        <tbody>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Formulaire</title>
+    <style>
+      body {
+        background-color: #03a9f4;
+      }
+      h1 {
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <h2 class="text-center mb-5">Formulaire</h2>
+      <div class="card">
+        <div class="card-body">
+          <form action="/generate" method="post">
+            <div class="form-group">
+              <label for="title">Titre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="title"
+                name="title"
+                placeholder="Entrez le titre souhaite"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="image">Lien de l'image</label>
+              <input
+                type="text"
+                class="form-control"
+                id="image"
+                name="image"
+                placeholder="Entrez le lien vers l'image"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="subtitle">Sous-titre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="subtitle"
+                name="subtitle"
+                placeholder="Entrez le sous-titre"
+                required
+              />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+            <!-- input type="submit" -->
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
